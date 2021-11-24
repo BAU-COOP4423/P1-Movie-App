@@ -17,6 +17,10 @@
 - ui: View classes along with their corresponding ViewModel.
 - utils: Utility classes.
 
+## Project Architecture
+<img src="../screenshots/architecture_1.jpg"/>
+<img src="../screenshots/architecture_2.jpg"/>
+
 ## Clone the Repository
 
 ### With SSH

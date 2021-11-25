@@ -38,11 +38,11 @@ public class MovieAdapter extends RecyclerView.Adapter<com.yilmazgokhan.movieapp
     /**
      * Setting the list data & notify the adapter for render list
      *
-     * @param games as List<GameModel>
+     * @param movies as List<Result>
      */
-    public void setAdapterList(List<Result> games) {
+    public void setAdapterList(List<Result> movies) {
         this.movies.clear();
-        this.movies.addAll(games);
+        this.movies.addAll(movies);
         this.notifyDataSetChanged();
     }
 
@@ -105,7 +105,7 @@ public class MovieAdapter extends RecyclerView.Adapter<com.yilmazgokhan.movieapp
      * This interface is used to catch the item click event
      */
     public interface ItemClickListener {
-        void onClick(int pos, Result gameModel);
+        void onClick(int pos, Result movie);
     }
     //endregion
 
